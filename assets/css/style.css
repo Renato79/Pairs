@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* unvisited link */
+a:link {
+    color: #fcfcfc !important;
+}
+
+/* visited link */
+a:visited {
+    color: #fcfcfc !important;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f4c318 !important;
+}
+
+/* selected link */
+a:active {
+    color: #daaa00 !important;
+}
+
+/* Background header and footer */
+.bg-myblue {
+    background-color: #2e3e50;
+}
+
+/* logo color and size */
+a.logo {
+    font-size: 2.4rem;
+    color: #f4c318 !important;
+}
+
+.gold {
+    color: #daaa00;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 1rem;
+    color: #f4c318;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pic:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+/* pictures margins */
+.ctable {
+    padding: 0.15rem;
+}
+
+/* card style */
+.pic {
+    margin: 0 !important;
+    object-fit: cover;
+    object-position: 50% 0;
+    width: 5rem;
+    height: 5rem;
+    opacity: 0.7;
+    border: solid 1px #f4c318;
+}
+
+/* margin top card table */
+.mt-cards {
+    margin-top: 1rem;
+}
+
+
+@media only screen and (min-width: 576px) {
+    /* For desktop: */
+
+    /* card style */
+    .pic {
+        margin: 0 !important;
+        object-fit: cover;
+        object-position: 50% 0;
+        width: 9rem;
+        height: 9rem;
+        opacity: 0.7;
+        border: solid 1px #f4c318;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+
+    /* card style */
+    .pic {
+        margin: 0 !important;
+        object-fit: cover;
+        object-position: 50% 0;
+        width: 10rem;
+        height: 10rem;
+        opacity: 0.7;
+        border: solid 1px #f4c318;
+    }
+
+    .mt-cards {
+        margin-top: 3rem;
+    }
+}
