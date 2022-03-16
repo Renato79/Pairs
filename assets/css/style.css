@@ -6,25 +6,46 @@ body {
     flex-direction: column;
 }
 
-/* unvisited link */
-a:link {
+/* menu unvisited link */
+a.topmenu:link {
     color: #fcfcfc !important;
+}
+
+/* menu visited link */
+a.topmenu:visited {
+    color: #fcfcfc !important;
+}
+
+/* menu mouse over link */
+a.topmenu:hover {
+    color: #f4c318 !important;
+}
+
+/* menu selected link */
+a.topmenu:active {
+    color: #daaa00 !important;
+}
+
+
+a.backtogame:link {
+    color: #daaa00 !important;
 }
 
 /* visited link */
-a:visited {
-    color: #fcfcfc !important;
+a.backtogame:visited {
+    color: #daaa00 !important;
 }
 
 /* mouse over link */
-a:hover {
+a.backtogame:hover {
     color: #f4c318 !important;
 }
 
 /* selected link */
-a:active {
-    color: #daaa00 !important;
+a.backtogame:active {
+    color: rgb(218, 182, 51) !important;
 }
+
 
 /* Background header and footer */
 .bg-myblue {
@@ -32,7 +53,7 @@ a:active {
 }
 
 /* logo color and size */
-a.logo {
+p.logo {
     font-size: 2.4rem;
     color: #f4c318 !important;
 }
@@ -51,62 +72,91 @@ footer {
     justify-content: center;
 }
 
-
-.pic:hover {
-    opacity: 1.0;
-    cursor: pointer;
-}
-
 /* pictures margins */
 .ctable {
     padding: 0.15rem;
 }
 
 /* card style */
-.pic {
-    margin: 0 !important;
+img {
     object-fit: cover;
     object-position: 50% 0;
     width: 5rem;
     height: 5rem;
-    opacity: 0.7;
-    border: solid 1px #f4c318;
+    border: solid 1px #f4c318;        
 }
+
+.pic {
+    opacity: 0.7;
+}
+
+.pic:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.pics {
+    opacity: 1;
+}
+
 
 /* margin top card table */
 .mt-cards {
     margin-top: 1rem;
 }
 
+#instructions {
+    display: none;
+    width: 50%;
+    margin: 1.8rem auto 0;
+}
+
+#game-center {
+    display: block;
+}
+
+/* Game completed style */
+#welldone {
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+#wellfont {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f4c318;
+}
+
+#finalScore {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ea9107;
+}
+
+.welldone-img {
+    width: 19rem !important;
+    height: auto !important;
+    border: none;
+}
 
 @media only screen and (min-width: 576px) {
-    /* For desktop: */
-
     /* card style */
-    .pic {
-        margin: 0 !important;
-        object-fit: cover;
-        object-position: 50% 0;
+    img {
         width: 9rem;
-        height: 9rem;
+        height: 9rem;    
+    }
+    .pic {
         opacity: 0.7;
-        border: solid 1px #f4c318;
     }
 }
 
 
 @media only screen and (min-width: 769px) {
-    /* For desktop: */
-
     /* card style */
-    .pic {
-        margin: 0 !important;
-        object-fit: cover;
-        object-position: 50% 0;
+    img {
         width: 10rem;
         height: 10rem;
-        opacity: 0.7;
-        border: solid 1px #f4c318;
     }
 
     .mt-cards {

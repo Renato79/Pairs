@@ -15,7 +15,7 @@
 
     <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-myblue mb-4 pe-4 ps-4">
-        <a class="navbar-brand ms-3 logo" href="index.html">Pairs</a>
+        <p class="navbar-brand my-0 ms-3 logo">Pairs</p>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,50 +24,75 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link me-4" href="">New game</a>
+                    <a class="nav-link me-4 topmenu" href="javascript:void(0);" onclick="reload()">New game</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link" href="">Solution</a>
+                    <a class="nav-link topmenu" href="javascript:void(0);" onclick="solution()">Solution</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">How to play</a>
+                    <a class="nav-link topmenu" href="javascript:void(0);" onclick="howtoplay()">How to play</a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
-    <div id="center" class="text-center mt-cards text-nowrap">
+    <div id="game-center" class="text-center mt-cards text-nowrap">
         <div>
             <p class="fs-2 gold">Score: <span id='cScore'>0000000</span></p>
         </div>
         <div class="ctable flex-nowrap">
+            <img id="id0" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id1" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id2" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id3" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id4" class="pic" onclick="guess(this.id)" alt="got card image" />
         </div>
         <div class="ctable flex-nowrap">
+            <img id="id4" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id5" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id6" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id7" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id8" class="pic" onclick="guess(this.id)" alt="got card image" />
         </div>
         <div class="ctable flex-nowrap">
+            <img id="id8" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id9" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id10" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id11" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id12" class="pic" onclick="guess(this.id)" alt="got card image" />
         </div>
         <div class="ctable flex-nowrap">
+            <img id="id12" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id13" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id14" class="pic" onclick="guess(this.id)" alt="got card image" />
             <img id="id15" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id16" class="pic" onclick="guess(this.id)" alt="got card image" />
         </div>
     </div>
 
+    <div id="welldone">
+        <p id='wellfont'>Well done!</p>
+        <p id='finalScore'></p>
+        <img src="assets/images/welldone.png" class="welldone-img" alt="well done image" />
+    </div>
 
+    <div id="instructions">
+        <h2>Memory: How to play</h2>
+        <p class="text-secondary">Memory has long been a favourite game for all generations. It is easy to play, in fact it is so
+            simple that really young children can play with ease. It requires observation, concentration and a
+            good memory to win. This is a single player game. The game is also known as Concentration,
+            Pelmanism, Shinkei-suijaku, Pexeso and Pairs.</p>
+        <h2 class="mt-4">Object of the Game</h2>
+        <p class="text-secondary">The object of the game is to collect all the matching pairs to win.</p>
+        <h2 class="mt-4">Playing Memory</h2>
+        <p class="text-secondary">Choose a card by clicking on it to turn it over, then select another card to turn that over too. If
+            the two cards are a matching pair, for example two Jon Snow, then they will be removed from the game
+            table. The player is awarded another turn for making a match and goes again. If the cards are not a
+            match they are turned back over, and you can keep choosing another card to guess a pair. The game
+            continues in this fashion until all the cards are played. If the player would like to see the
+            solution, it’s possible to click on the button ‘Solution’ to turn all the cards over. It’s also
+            possible to start a new game by clicking on ‘New Game’. The player wins once all the cards have been played.</p>
+        <p class="text-end"><a href="javascript:void(0);" onclick="backtogame()" class="backtogame">Back to the game</a></p>
+    </div>
+    
+    
 
     <!-- Footer section -->
     <footer class="bg-myblue">
