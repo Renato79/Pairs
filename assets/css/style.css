@@ -6,46 +6,46 @@ body {
     flex-direction: column;
 }
 
-/* menu unvisited link */
+/* navbar unvisited link */
 a.topmenu:link {
     color: #fcfcfc !important;
 }
 
-/* menu visited link */
+/* navbar visited link */
 a.topmenu:visited {
     color: #fcfcfc !important;
 }
 
-/* menu mouse over link */
+/* navbar mouse over link */
 a.topmenu:hover {
     color: #f4c318 !important;
 }
 
-/* menu selected link */
+/* navbar selected link */
 a.topmenu:active {
     color: #daaa00 !important;
 }
 
 
+/* bac to game link in the page how to play */
 a.backtogame:link {
     color: #daaa00 !important;
 }
 
-/* visited link */
+/* back to game link in the page how to play - visited link */
 a.backtogame:visited {
     color: #daaa00 !important;
 }
 
-/* mouse over link */
+/* back to game link in the page how to play - mouse over link */
 a.backtogame:hover {
     color: #f4c318 !important;
 }
 
-/* selected link */
+/* back to game link in the page how to play - selected link */
 a.backtogame:active {
     color: rgb(218, 182, 51) !important;
 }
-
 
 /* Background header and footer */
 .bg-myblue {
@@ -62,17 +62,7 @@ p.logo {
     color: #daaa00;
 }
 
-footer {
-    margin-top: auto;
-    font-size: 1rem;
-    color: #f4c318;
-    padding: 1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* pictures margins */
+/* picture margins */
 .ctable {
     padding: 0.15rem;
 }
@@ -83,7 +73,7 @@ img {
     object-position: 50% 0;
     width: 5rem;
     height: 5rem;
-    border: solid 1px #f4c318;        
+    border: solid 1px #f4c318;
 }
 
 .pic {
@@ -99,7 +89,6 @@ img {
     opacity: 1;
 }
 
-
 /* margin top card table */
 .mt-cards {
     margin-top: 1rem;
@@ -111,11 +100,12 @@ img {
     margin: 1.8rem auto 0;
 }
 
+/* The table with the cards */
 #game-center {
     display: block;
 }
 
-/* Game completed style */
+/* Game completed div style */
 #welldone {
     margin: auto;
     text-align: center;
@@ -140,12 +130,25 @@ img {
     border: none;
 }
 
+footer {
+    margin-top: auto;
+    font-size: 1rem;
+    color: #f4c318;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @media only screen and (min-width: 576px) {
+
     /* card style */
     img {
         width: 9rem;
-        height: 9rem;    
+        height: 9rem;
     }
+
     .pic {
         opacity: 0.7;
     }
@@ -153,6 +156,7 @@ img {
 
 
 @media only screen and (min-width: 769px) {
+
     /* card style */
     img {
         width: 10rem;

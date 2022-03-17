@@ -36,43 +36,38 @@
         </div>
     </nav>
 
-
+    <!-- Board Game -->
     <div id="game-center" class="text-center mt-cards text-nowrap">
         <div>
             <p class="fs-2 gold">Score: <span id='cScore'>0000000</span></p>
         </div>
         <div class="ctable flex-nowrap">
-            <img id="id0" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id1" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id2" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id3" class="pic" onclick="guess(this.id)" alt="got card image" />
+            <img id="id0" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id1" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id2" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id3" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
         </div>
         <div class="ctable flex-nowrap">
-            <img id="id4" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id5" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id6" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id7" class="pic" onclick="guess(this.id)" alt="got card image" />
+            <img id="id4" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id5" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id6" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id7" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
         </div>
         <div class="ctable flex-nowrap">
-            <img id="id8" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id9" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id10" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id11" class="pic" onclick="guess(this.id)" alt="got card image" />
+            <img id="id8" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id9" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id10" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id11" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
         </div>
         <div class="ctable flex-nowrap">
-            <img id="id12" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id13" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id14" class="pic" onclick="guess(this.id)" alt="got card image" />
-            <img id="id15" class="pic" onclick="guess(this.id)" alt="got card image" />
+            <img id="id12" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id13" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id14" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
+            <img id="id15" class="pic" onclick="guess(this.id)" src="assets/images/got-card.jpg" alt="got card image" />
         </div>
     </div>
 
-    <div id="welldone">
-        <p id='wellfont'>Well done!</p>
-        <p id='finalScore'></p>
-        <img src="assets/images/welldone.png" class="welldone-img" alt="well done image" />
-    </div>
-
+    <!-- How to play page -->
     <div id="instructions">
         <h2>Memory: How to play</h2>
         <p class="text-secondary">Memory has long been a favourite game for all generations. It is easy to play, in fact it is so
@@ -89,11 +84,17 @@
             continues in this fashion until all the cards are played. If the player would like to see the
             solution, it’s possible to click on the button ‘Solution’ to turn all the cards over. It’s also
             possible to start a new game by clicking on ‘New Game’. The player wins once all the cards have been played.</p>
-        <p class="text-end"><a href="javascript:void(0);" onclick="backtogame()" class="backtogame">Back to the game</a></p>
+        <p class="text-end"><a href="javascript:void(0);" onclick="backtogame()" class="backtogame me-2 mt-2">Back to the game</a></p>
     </div>
     
-    
+    <!-- Well done page when the game is finished -->
+    <div id="welldone">
+        <p id='wellfont'>Well done!</p>
+        <p id='finalScore'></p>
+        <img src="assets/images/welldone.png" class="welldone-img" alt="well done image" />
+    </div>    
 
+    
     <!-- Footer section -->
     <footer class="bg-myblue">
         <p class="m-0">Pairs - Memory Game - JavaScript Project</p>
