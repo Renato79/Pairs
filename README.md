@@ -1,11 +1,10 @@
 <h1 align="center">Pairs - Memory Game</h1>
+
 [View the live project here.](https://renato79.github.io/Pairs/)
 
 Pairs is a classic game that I created to demostrate my skills in pure, clean and simple (Vanilla) JavaScript.
 
-The game presents a main page with the board game, and three links: How to play, Solution (To see the solution of the current game) and New Game.
-
-The score is based on a timer, then you can improve your score at any time you play again.
+The game presents a main page with the board game, and three links: How to play, Solution (To see the solution of the current game) and New Game. The score is based on a timer, then you can improve your score at any time you play again.
 
 <p align="center">
   <img width="700" height="auto" src="assets/images/gameimg.png">
