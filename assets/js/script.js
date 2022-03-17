@@ -20,7 +20,7 @@ var arr = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7];
 
 // Shuffle the cards to start the game
 arr.sort(function (a, b) {
-    return 0.5 - Math.random()
+    return 0.5 - Math.random();
 });
 
 var match = 0; // Counter to play only with two cards a time
