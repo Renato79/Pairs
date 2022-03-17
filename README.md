@@ -37,6 +37,7 @@ The game presents a main page with the board game, and three links: How to play,
 - I downloaded the pictures of the actors of Game of Thrones from: https://www.hbo.com/game-of-thrones/cast-and-crew
 - I downloaded the picture of the Night King from https://www.peakpx.com
 
+## How to Fork and Clone
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
