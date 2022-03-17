@@ -1,44 +1,42 @@
-# Pairs - Memory Game
+<h1 align="center">Pairs - Memory Game</h1>
+[View the live project here.](https://renato79.github.io/Pairs/)
 
-<p align="center">
-  <img width="700" height="auto" src="assets/images/gameimg.png">
-</p>
-
-
-- Live Demo: Please click [HERE](https://renato79.github.io/Pairs/) to play!
-
-Pairs is a classic game that I created to demostrate my skills in pure, clean and simple (vanilla) JavaScript.
+Pairs is a classic game that I created to demostrate my skills in pure, clean and simple (Vanilla) JavaScript.
 
 The game presents a main page with the board game, and three links: How to play, Solution (To see the solution of the current game) and New Game.
 
 The score is based on a timer, then you can improve your score at any time you play again.
 
+<p align="center">
+  <img width="700" height="auto" src="assets/images/gameimg.png">
+</p>
+
 ## Technologies Used
+### Languages Used
 - HTML5
 - CSS3 (Responsive)
-- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - JavaScript
-- DOM (Document Object Model)
 
+### Frameworks
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+### Deployment, Libraries & Programs Used
+- [GitHub](https://github.com/Renato79/Pairs): The [project](https://renato79.github.io/Pairs/) was fully deployed to [GitHub](https://github.com/Renato79/Pairs).
+- [Git](https://git-scm.com/): I used [Git](https://git-scm.com/), the popular version control system.
+- [Visual Studio Code](https://www.visualstudio.com/): I used a code editor on my computer, [Visual Studio Code](https://www.visualstudio.com/) for [macOS](https://en.wikipedia.org/wiki/MacOS)
+
+## Testing
 ### Code validation
 - I checked the markup validity of my Web documents in HTML on [The Markup Validation Service](https://validator.w3.org/)
 - I validated my CSS code on [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Credits
-
 ### Content
-- Instructions, in the section "How to play" were obtained at: https://www.classicgamesandpuzzles.com/Memory.html
+- Instructions, in the section "How to play", were obtained from: https://www.classicgamesandpuzzles.com/Memory.html
 
 ### Media
 - I downloaded the pictures of the actors of Game of Thrones from: https://www.hbo.com/game-of-thrones/cast-and-crew
 - I downloaded the picture of the Night King from https://www.peakpx.com
-
-## Deployment
-
-### Git, GitHub and Visual Studio Code
-- The [project](https://renato79.github.io/Pairs/) was fully deployed to [GitHub](https://github.com/Renato79/Pairs).
-- I used a code editor on my computer, [Visual Studio Code](https://www.visualstudio.com/) for [macOS](https://en.wikipedia.org/wiki/MacOS)
-- I used [Git](https://git-scm.com/), the popular version control system.
 
 ### Forking the GitHub Repository
 
