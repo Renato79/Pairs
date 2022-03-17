@@ -5,7 +5,7 @@
 </p>
 
 
-- Live Demo: Please click [HERE](https://renato79.github.io/pairs/) to play!
+- Live Demo: Please click [HERE](https://renato79.github.io/Pairs/) to play!
 
 Pairs is a classic game that I created to demostrate my skills in pure, clean and simple (vanilla) JavaScript.
 
